@@ -20,7 +20,7 @@ pip install -r llama.cpp/requirements/requirements-convert-hf-to-gguf.txt
 python llama.cpp/convert-hf-to-gguf.py $MODEL_PATH --outfile "/path-of-the-model/gemma-2b.gguf"
 
 # Run Quantization using llama.coo
-./server -m /Users/saurabh/Documents/projects/quantz/output/gemma-2b-Q4_0.gguf -ngl 999 -c 2048 # For windows : .\main -m llama-2-7b.Q4_0.gguf -n 128
+./server -m /path-of-the-model/gemma-2b-Q4_0.gguf -ngl 999 -c 2048 # For windows : .\main -m llama-2-7b.Q4_0.gguf -n 128
 ```
 
 -Can be improved by transfer learning (obviously 😉)
