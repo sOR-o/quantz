@@ -1,0 +1,3 @@
+.\main -m llama-2-7b.Q4_0.gguf -n 128
+first go to llama.cpp
+./server -m /Users/saurabh/Documents/projects/quantz/output/gemma-2b-Q4_0.gguf -ngl 999 -c 2048
